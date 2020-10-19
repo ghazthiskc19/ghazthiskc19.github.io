@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-top: 5px solid black;
+}
+.img{
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 10px;
+    justify-content: center;
+}
+.img img{
+    border-radius: 25px;
+}
+.img img:hover{
+    background: rgb(15, 15, 15);
+}
